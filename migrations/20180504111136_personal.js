@@ -5,10 +5,11 @@ exports.up = function(knex, Promise) {
         table.increments('id');
         table.string('image');
         table.string('title');
+        table.string('tech');
         table.string('image_two');
         table.string('description');
         table.string('image_three');
-        table.string('link');
+        table.string('url');
     })
 };
       
