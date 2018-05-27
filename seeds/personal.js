@@ -22,7 +22,7 @@ exports.seed = function(knex, Promise) {
           tech:'React.js, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
           image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.png',
           description:'Concert ride sharing app giving users the option to join or create a ride to a concert.',
-          image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/concert.png',
+          image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/concert.jpg',
           url:'https://github.com/jdg2384/mysite',
         },
         {
@@ -50,3 +50,4 @@ exports.seed = function(knex, Promise) {
     });
 };
 
+// heroku pg:reset DATABASE_URL --confirm peaceful-tor-89083
