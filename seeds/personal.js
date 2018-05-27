@@ -17,13 +17,13 @@ exports.seed = function(knex, Promise) {
         },
         {
           id:2,
-          image:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
+          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.png',
           title:'Hoist',
-          tech:'React Native, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
-          image_two:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
+          tech:'React.js, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
+          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.png',
           description:'Concert ride sharing app giving users the option to join or create a ride to a concert.',
-          image_three:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
-          url:'https://www.facebook.com/joseph.grounds.3',
+          image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/concert.png',
+          url:'https://github.com/jdg2384/mysite',
         },
         {
           id:3,
