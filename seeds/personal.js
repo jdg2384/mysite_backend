@@ -7,17 +7,17 @@ exports.seed = function(knex, Promise) {
       return knex('personal').insert([
         {
           id:1,
-          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/dateifyDB.png',
+          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/date.jpg',
           title:'Dateify',
           tech:'React Native, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
-          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/dateifyLogo.png',
+          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/date.jpg',
           description:'React Native App designed to match partners based on musical preferences using Spotify API',
           image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/dating.jpg',
           url:'https://github.com/jdg2384/Dateify',
         },
         {
           id:2,
-          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.png',
+          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.jpg',
           title:'Hoist',
           tech:'React.js, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
           image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hoist.png',
@@ -27,10 +27,10 @@ exports.seed = function(knex, Promise) {
         },
         {
           id:3,
-          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.png',
+          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.jpg',
           title:'Prime Mtn',
           tech:'Django, Sqlite, jQuery, JavaScript,',
-          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.png',
+          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.jpg',
           description:'React Native App designed to match partners based on musical preferences using Spotify API',
           image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hiking.jpg',
           url:'https://github.com/jdg2384/PrimeMtn',
