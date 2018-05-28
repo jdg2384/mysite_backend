@@ -27,12 +27,12 @@ exports.seed = function(knex, Promise) {
         },
         {
           id:3,
-          image:'https://www.digitaltrends.com/wp-content/uploads/2013/05/Online-Dating-Guide-header.jpg',
+          image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.png',
           title:'Prime Mtn',
           tech:'Django, Sqlite, jQuery, JavaScript,',
-          image_two:'https://www.digitaltrends.com/wp-content/uploads/2013/05/Online-Dating-Guide-header.jpg',
+          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/camp.png',
           description:'React Native App designed to match partners based on musical preferences using Spotify API',
-          image_three:'https://www.digitaltrends.com/wp-content/uploads/2013/05/Online-Dating-Guide-header.jpg',
+          image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hiking.jpg',
           url:'https://github.com/jdg2384/PrimeMtn',
         },
         {
