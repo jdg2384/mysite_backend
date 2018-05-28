@@ -35,16 +35,16 @@ exports.seed = function(knex, Promise) {
           image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/hiking.jpg',
           url:'https://github.com/jdg2384/PrimeMtn',
         },
-        {
-          id:4,
-          image:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
-          title:'testTwo',
-          tech:'React Native, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
-          image_two:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
-          description:'Concert ride sharing app giving users the option to join or create a ride to a concert.',
-          image_three:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
-          url:'www.link.com',
-        },
+        // {
+        //   id:4,
+        //   image:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
+        //   title:'testTwo',
+        //   tech:'React Native, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
+        //   image_two:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
+        //   description:'Concert ride sharing app giving users the option to join or create a ride to a concert.',
+        //   image_three:'https://urban-plains.com/wp-content/uploads/2015/04/FEATURE_Hitchhiking-e1429978037775-1280x640.jpg',
+        //   url:'www.link.com',
+        // },
         
       ]);
     });
