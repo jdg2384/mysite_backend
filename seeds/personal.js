@@ -10,7 +10,7 @@ exports.seed = function(knex, Promise) {
           image:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/date.jpg',
           title:'Dateify',
           tech:'React Native, Redux, Node.js, Knex.js, PostgreSQL, Express.js CRUD routes, Javascript, Axios, Spotify API, React Native, WebSockets, Spotify OAuth  SDK',
-          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/date.jpg',
+          image_two:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/dateLogo.png',
           description:'React Native App designed to match partners based on musical preferences using Spotify API',
           image_three:'https://raw.githubusercontent.com/jdg2384/mysite/master/src/Assets/dating.jpg',
           url:'https://github.com/jdg2384/Dateify',
