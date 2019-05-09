@@ -36,6 +36,39 @@ app.get('/api/:id', (req, res, next) => {
         res.status(404).send(err)
     })
 })
+//Resume Click Routes
+
+app.get('/clicks', (req, res, next) => {
+    knex('resume')
+    .select('*')
+    .then(data=>{
+        res.send(data)
+    })
+    .catch(err => {
+        res.status(404).send(err)
+    })
+})
+
+app.post('/resume',(req,res,next)=>{
+    let rb = req.body.data
+    console.log(rb)
+    knex('resume')
+    .insert({
+        company: rb.company,
+        submitted_time: rb.submitted_time,
+        viewed_time: rb.viewed_time,
+        link: rb.link,
+        skills: rb.skills,
+        skills_desired: rb.skills_desired,
+        job_site: rb.job_site
+    })
+    .then(data => {
+        res.status(200).send(data[0])
+    }) 
+    .catch(err => {
+        res.status(404).send(err)
+    })    
+})
 
 //Error
 app.use((err, req, res, next) => {

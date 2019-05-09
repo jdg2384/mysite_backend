@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
         table.string('title');
         table.string('tech');
         table.string('image_two');
-        table.string('description');
+        table.string('description',2000);
         table.string('image_three');
         table.string('url');
     })
